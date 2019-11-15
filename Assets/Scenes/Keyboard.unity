@@ -141,7 +141,7 @@ MonoBehaviour:
   m_Script: {fileID: 1877137293, guid: b8b5d457124950a49ae6d531804d7442, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  activeProfile: {fileID: 11400000, guid: 019ea231fcd4127409ae7906b2996ee1, type: 2}
+  activeProfile: {fileID: 11400000, guid: 5c4222df23517a54889b0a33c432ef96, type: 2}
 --- !u!4 &544210050
 Transform:
   m_ObjectHideFlags: 0
@@ -1905,6 +1905,31 @@ PrefabInstance:
       propertyPath: m_isInputParsingRequired
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 500204517648538416, guid: ed280328519ad0143a807ef713c89d3d,
+        type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 500204517648538416, guid: ed280328519ad0143a807ef713c89d3d,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 500204517648538416, guid: ed280328519ad0143a807ef713c89d3d,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 500204517648538416, guid: ed280328519ad0143a807ef713c89d3d,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 500204517648538416, guid: ed280328519ad0143a807ef713c89d3d,
+        type: 3}
+      propertyPath: m_textInfo.pageCount
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8635573382583912286, guid: ed280328519ad0143a807ef713c89d3d,
         type: 3}
       propertyPath: m_Mesh
@@ -2608,7 +2633,7 @@ PrefabInstance:
     - target: {fileID: 500204517648538418, guid: ed280328519ad0143a807ef713c89d3d,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ed280328519ad0143a807ef713c89d3d, type: 3}
